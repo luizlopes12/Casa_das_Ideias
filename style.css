@@ -44,7 +44,7 @@ body {
   height: 200px;
   margin: auto;
 }
-.button{
+.button {
   font-size: 1.5em;
   padding: 18px 5px 0 5px;
   text-align: center;
@@ -55,11 +55,10 @@ body {
   background-color: #8c6a58;
   border-radius: 25px;
 }
-.button:hover{
+.button:hover {
   background-color: rgb(163, 125, 104);
 }
-a:link{
-
+a:link {
   text-decoration: none;
 }
 @media (max-width: 1300px) {
@@ -78,17 +77,16 @@ a:link{
   .line,
   .line2 {
     height: 3px;
-
   }
   .content {
     height: 100px;
   }
- 
-    .button{
-      font-size: 1.5em;
-      margin-top: 260px;
-    }
+
+  .button {
+    font-size: 1.5em;
+    margin-top: 260px;
   }
+}
 
 @media (max-width: 600px) {
   body {
@@ -113,9 +111,8 @@ a:link{
   .line2 {
     height: 1px;
     width: 4px;
-    
   }
-  .button{
+  .button {
     font-size: 1.5em;
     margin-top: 320px;
   }
