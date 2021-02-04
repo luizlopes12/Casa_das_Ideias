@@ -16,7 +16,7 @@
   .font2 {
     font-family: "Lato", sans-serif;
     font-style: normal;
-    font-size: 2.5em;
+    font-size: 2.7em;
   }
   header{
       align-items: center;
@@ -26,7 +26,7 @@
   p{
     text-align: center;     
     width: 100%;
-      margin: 100px auto -145px auto;
+    margin: 100px auto -145px auto;
   }
   .pic{
       width: 650px;
@@ -44,10 +44,15 @@
     text-decoration: none;
   }
   @media(max-width: 800px){
+    .font2 {
+      font-family: "Lato", sans-serif;
+      font-style: normal;
+      font-size: 1.8em;
+    }
     p{
       text-align: center;     
       width: 100%;
-      margin: 50px auto 0px auto;
+      margin: 100px auto 20px auto;
     }
     .pic{
       width: 300px;
