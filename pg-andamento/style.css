@@ -43,3 +43,30 @@
   a:link{
     text-decoration: none;
   }
+  @media(max-width: 800px){
+    p{
+      text-align: center;     
+      width: 100%;
+      margin: 50px auto 0px auto;
+    }
+    .pic{
+      width: 300px;
+      height: 300px;
+      margin: auto;
+      border-radius: 300px;
+      background-color: rgba(255, 255, 255, 0.623);
+      
+
+  } 
+  .ops{
+    margin: 0;
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+  }
+
+
+
+
+
+  }
