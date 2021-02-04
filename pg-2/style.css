@@ -1,87 +1,76 @@
 * {
-    padding: 0;
-    margin: 0;
-  }
-  
-  .font1 {
-    font-family: "Playfair Display", serif;
-    font-size: 5em;
-    padding-bottom: 20px;
-    color: rgb(255, 255, 255);
-  }
-  .font2 {
-    font-family: "Lato", sans-serif;
-    font-style: normal;
-    font-size: 1.5em;
-    color: rgb(255, 255, 255);
-  }
-  body{
-      background-color: #ffffff;
-  }
-  header {
-    background-color: #8c6a58;
-    color: #ffffff;
-    width: 98.5%;
-    height: 110px;
-    padding: 10px;
-  }
-  .logo{
-      background-image: url(../img/icon.svg);
-      background-repeat: no-repeat;
-      width: 90px;
-      height: 90px;
-      float: left;
+  padding: 0;
+  margin: 0;
+}
 
-      position: relative;
-  }
-  .title{
-      font-size: 2.5em;
-    width: 300px;
-    display: inline-block;
-    height: 50px;
-    padding: 30px 10px;
+.font1 {
+  font-family: "Playfair Display", serif;
+  font-size: 5em;
+  padding-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+.font2 {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+}
+body {
+  background-color: #ffffff;
+}
+header {
+  background-color: #8c6a58;
+  color: #ffffff;
+  width: 98.5%;
+  height: 110px;
+  padding: 10px;
+}
+.logo {
+  background-image: url(../img/icon.svg);
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 90px;
+  float: left;
 
-  }
-  a:link{
-      text-decoration: none;
-  }
-  nav{
-      
-      padding: 30px 100px;
-      float: right;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      
-  }
-  nav a{
-    margin: 10px;
-    display: inline;
-  }
-  .nav{
-    padding: 10px;
-    background-color: #7a5c4d;
-    border-radius: 10px;
-  }
-  .nav-buttons{
-      
-      padding: 10px 25px;
-      
-  }
-  .nav-buttons:hover{
-      background-color: #8c6a58 ;
-  }
+  position: relative;
+}
+.title {
+  font-size: 2.5em;
+  width: 300px;
+  display: inline-block;
+  height: 50px;
+  padding: 30px 10px;
+}
+a:link {
+  text-decoration: none;
+}
+nav {
+  padding: 30px 100px;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a {
+  margin: 10px;
+  display: inline;
+}
+.nav {
+  padding: 10px;
+  background-color: #7a5c4d;
+  border-radius: 10px;
+}
+.nav-buttons {
+  padding: 10px 25px;
+}
+.nav-buttons:hover {
+  background-color: #8c6a58;
+}
 
-
-  @media(max-width: 1120px) and (min-width: 800px){
-
-
-    .header{
-        text-align: center;
-        display: block;
-        align-items: center;
-    }
-
-
-
+@media (max-width: 1120px) and (min-width: 800px) {
+  .header {
+    text-align: center;
+    display: block;
+    align-items: center;
   }
+}
