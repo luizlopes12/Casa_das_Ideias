@@ -16,5 +16,27 @@
   .font2 {
     font-family: "Lato", sans-serif;
     font-style: normal;
-    font-size: 1.5em;
+    font-size: 2.5em;
+  }
+  header{
+      align-items: center;
+      display: block;
+      width: 100%;
+  }
+  p{
+    text-align: center;     
+    width: 100%;
+      margin: 100px auto -145px auto;
+  }
+  .pic{
+      width: 650px;
+      height: 650px;
+      margin: auto;
+      border-radius: 650px;
+      background-color: rgba(255, 255, 255, 0.623);
+
+  }
+  img{
+      margin: 150px 90px;
+      
   }
