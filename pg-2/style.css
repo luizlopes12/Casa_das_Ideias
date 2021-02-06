@@ -2,116 +2,162 @@
   padding: 0;
   margin: 0;
 }
-
+body {
+  background-color: #ffffff;
+  background-size: 100%;
+  color: #ffffff;
+}
 .font1 {
   font-family: "Playfair Display", serif;
   font-size: 5em;
   padding-bottom: 20px;
-  color: rgb(255, 255, 255);
 }
 .font2 {
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-size: 1.5em;
-  color: rgb(255, 255, 255);
 }
-body {
-  background-color: #ffffff;
-}
-header {
+.header {
   background-color: #8c6a58;
-  color: #ffffff;
-  width: 98.5%;
-  height: 110px;
-  padding: 10px;
 }
 .logo {
-  background-image: url(../img/icon.svg);
-  background-repeat: no-repeat;
-  width: 90px;
-  height: 90px;
+  margin: 10px;
   float: left;
-  position: relative;
 }
 .title {
-  font-size: 2.5em;
-  width: 300px;
-  display: inline-block;
-  height: 50px;
-  padding: 30px 10px;
-}
-a:link {
-  text-decoration: none;
-}
-nav {
-  padding: 30px 100px;
-  float: right;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-nav a {
-  margin: 10px;
-  display: inline;
+  padding: 20px;
 }
 .nav {
-  padding: 10px;
   background-color: #7a5c4d;
-  border-radius: 10px;
+  border-radius: 16px;
+  width: 40%;
+  height: 50px;
+  font-size: 50%;
+  text-align: center;
+  float: right;
+  margin: 20px;
+  padding: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
-.nav-buttons {
-  padding: 10px 25px;
+.headerlink{
+
+  color: white;
+  text-decoration: none;
+  width: 70px;
+  margin: 3%;
 }
-.nav-buttons:hover {
+.headerlink:hover {
   background-color: #8c6a58;
 }
-
-@media (max-width: 1120px) and (min-width: 800px) {
-
-  nav{
-
-    width: 60%;
-    padding: 30px 0;
+@media (max-width: 1024px) and (min-width: 860px) {
+  .logo {
+    position: absolute;
+    margin: 5px;
+    float: left;
   }
-  header {
-    width: 100%;
-    padding: 5px;
-    margin: 0;
+  .header {
+    text-align: center;
   }
   .title {
-    font-size: 2em;
-    display: inline-block;  
-    position: fixed;
-
-    width: 200px;
-    padding: 30px 0;
-    margin: 0 10px;
+    text-align: center;
+    width: 80%;
+    padding: 15px;
+    display: inline-block;
+  }
+  .nav {
+    width: 96%;
+    float: none;
   }
 
 }
-@media (max-width: 800px){
+@media (max-width: 860px) and (min-width: 600px)  {
+    .logo {
+        display: none;
+
+      }
+      .font1 {
+
+        font-size: 3.5em;
+
+      }
+      .font2 {
+
+        font-size: .6em;
+      }
+      .header {
+        position: unset;
+        text-align: unset;
+        height: 60px;
+      }
+      .title {
+        position: relative;
+        text-align: center;
+        width: 70%;
+        left: 15%;
+        right: 15%;
+        display: inline-block;
+      }
+
+      .nav {
+        position: fixed;
+        
+        top: 60px;
+        width: 70%;
+
+        right: 17%;
+        left: 13%;
+        height: 20px;
+        padding-bottom: 30px;
+        
+        
+      }
+
+}
+@media(max-width: 600px){
+
+    .font1 {
+
+        font-size: 2em;
+
+      }
+      .font2 {
+
+        font-size: .5em;
+      }
+      .nav {
+        position: inherit;
+        display: block;
+        width: 64%;
+        right: 15%;
+        left: 15%;
+        height: 9px;
+        padding-bottom: 25px;
+        
+        
+      }
+      .logo {
+        display: none;
+
+      }
+
+      .header {
+        position: unset;
+        height: 60px;
+      }
+      .title {
+        position: fixed;
+        text-align: center;
+        width: 68%;
+        left: 10%;
+        right: 10%;
+        display: block;
+      }
 
 
-  nav{
-    display: none;
-    width: 0;
-    height: 0;
-  }
-  header {
-    
-    padding: 5px;
-    margin: 0;
-  }
 
-  .title {
-    font-size: 2em;
-    display: inline-block;  
-    position: fixed;
 
-    width: 200px;
-    padding: 30px 0;
-    margin: 0 10px;
-  }
+
 
 
 }
