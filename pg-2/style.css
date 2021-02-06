@@ -40,8 +40,7 @@ body {
   margin-right: 5px;
   margin-left: 5px;
 }
-.headerlink{
-
+.headerlink {
   color: white;
   text-decoration: none;
   width: 70px;
@@ -69,95 +68,73 @@ body {
     width: 96%;
     float: none;
   }
-
 }
-@media (max-width: 860px) and (min-width: 600px)  {
-    .logo {
-        display: none;
+@media (max-width: 860px) and (min-width: 600px) {
+  .logo {
+    display: none;
+  }
+  .font1 {
+    font-size: 3.5em;
+  }
+  .font2 {
+    font-size: 0.6em;
+  }
+  .header {
+    position: unset;
+    text-align: unset;
+    height: 60px;
+  }
+  .title {
+    position: relative;
+    text-align: center;
+    width: 70%;
+    left: 15%;
+    right: 15%;
+    display: inline-block;
+  }
 
-      }
-      .font1 {
+  .nav {
+    position: fixed;
 
-        font-size: 3.5em;
+    top: 60px;
+    width: 70%;
 
-      }
-      .font2 {
-
-        font-size: .6em;
-      }
-      .header {
-        position: unset;
-        text-align: unset;
-        height: 60px;
-      }
-      .title {
-        position: relative;
-        text-align: center;
-        width: 70%;
-        left: 15%;
-        right: 15%;
-        display: inline-block;
-      }
-
-      .nav {
-        position: fixed;
-        
-        top: 60px;
-        width: 70%;
-
-        right: 17%;
-        left: 13%;
-        height: 20px;
-        padding-bottom: 30px;
-        
-        
-      }
-
+    right: 17%;
+    left: 13%;
+    height: 20px;
+    padding-bottom: 30px;
+  }
 }
-@media(max-width: 600px){
+@media (max-width: 600px) {
+  .font1 {
+    font-size: 2em;
+  }
+  .font2 {
+    font-size: 0.5em;
+  }
+  .nav {
+    position: inherit;
+    display: block;
+    width: 64%;
+    right: 15%;
+    left: 15%;
+    height: 9px;
+    padding-bottom: 25px;
+  }
+  .logo {
+    display: none;
+  }
 
-    .font1 {
-
-        font-size: 2em;
-
-      }
-      .font2 {
-
-        font-size: .5em;
-      }
-      .nav {
-        position: inherit;
-        display: block;
-        width: 64%;
-        right: 15%;
-        left: 15%;
-        height: 9px;
-        padding-bottom: 25px;
-        
-        
-      }
-      .logo {
-        display: none;
-
-      }
-
-      .header {
-        position: unset;
-        height: 60px;
-      }
-      .title {
-        position: fixed;
-        text-align: center;
-        width: 68%;
-        left: 10%;
-        right: 10%;
-        display: block;
-      }
-
-
-
-
-
-
-
+  .header {
+    position: unset;
+    height: 60px;
+  }
+  .title {
+    position: fixed;
+    text-align: center;
+    width: 68%;
+    left: 10%;
+    right: 10%;
+    display: block;
+  }
 }
