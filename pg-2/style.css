@@ -122,9 +122,10 @@ body {
   .nav {
     position: inherit;
     display: block;
-    width: 64%;
+    top: 40px;
+    width: 68%;
     right: 15%;
-    left: 15%;
+    left: 12%;
     height: 9px;
     padding-bottom: 25px;
   }
