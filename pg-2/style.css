@@ -7,6 +7,7 @@ body {
   background-size: 100%;
   color: #ffffff;
 }
+/*fontes*/
 .font1 {
   font-family: "Playfair Display", serif;
   font-size: 5em;
@@ -17,6 +18,7 @@ body {
   font-style: normal;
   font-size: 1.5em;
 }
+/*header, texto do header e img*/
 .header {
   background-color: #8c6a58;
 }
@@ -27,6 +29,7 @@ body {
 .title {
   padding: 20px;
 }
+/*nav config*/
 .nav {
   background-color: #7a5c4d;
   border-radius: 16px;
@@ -40,6 +43,7 @@ body {
   margin-right: 5px;
   margin-left: 5px;
 }
+/*nav links*/
 .headerlink {
   color: white;
   text-decoration: none;
@@ -49,6 +53,7 @@ body {
 .headerlink:hover {
   background-color: #8c6a58;
 }
+/**/
 @media (max-width: 1024px) and (min-width: 860px) {
   .logo {
     position: absolute;
