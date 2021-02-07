@@ -53,6 +53,27 @@ body {
 .headerlink:hover {
   background-color: #8c6a58;
 }
+.item{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*media querie 1*/
 @media (max-width: 1024px) and (min-width: 860px) {
   .logo {
