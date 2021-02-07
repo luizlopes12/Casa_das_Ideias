@@ -69,15 +69,22 @@ body {
   margin: 20px;
 }
   .item-img{
-
+    background-color: gray;
+    border-radius: 5px;
+    width: 130px;
+    height: 130px;
+    margin: 10px;
   }
 .item-button{
   height: 40px;
   width: 130px;
-  margin: 150px 10px 5px 10px;
+  margin: 10px 10px 5px 10px;
   border-radius: 10px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 
+}
+.item-button:hover{
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -120,6 +127,11 @@ body {
 @media (max-width: 860px) and (min-width: 600px) {
   .logo {
     display: none;
+  }
+  .item-box{
+    text-align: center;
+    padding-top: 40px;
+    width: 100%;
   }
   .font1 {
     font-size: 3.5em;
@@ -186,5 +198,38 @@ body {
     left: 10%;
     right: 10%;
     display: block;
+  }
+  .item-box{
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+  }
+  
+  .item{
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 20px;
+    display: inline-block;
+    height: 200px;
+    width: 150px;
+    margin: auto;
+    
+  }
+    .item-img{
+      background-color: gray;
+      border-radius: 5px;
+      width: 130px;
+      height: 130px;
+      margin: 10px;
+    }
+  .item-button{
+    height: 40px;
+    width: 130px;
+    margin: 10px 10px 5px 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+  
+  }
+  .item-button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
   }
 }
