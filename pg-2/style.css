@@ -86,11 +86,14 @@ body {
 .item-button:hover{
   background-color: rgba(0, 225, 64, 0.8);
 }
+
 .item-button p{
   padding: 8px;
   color: white;
   font-size: 20px;
+  
 }
+
 
 
 
