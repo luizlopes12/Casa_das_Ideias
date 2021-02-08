@@ -68,7 +68,7 @@ body {
   margin-top: 20px;
 }
   .item-img{
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.302);
     border-radius: 5px;
     width: 130px;
     height: 130px;
@@ -92,6 +92,10 @@ body {
   color: white;
   font-size: 20px;
   
+}
+.item-button a{
+  text-decoration: none;
+  color: white;
 }
 
 
