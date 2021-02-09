@@ -53,13 +53,13 @@ body {
 .headerlink:hover {
   background-color: #8c6a58;
 }
-.item-box{
+.item-box {
   border-radius: 20px;
   width: 100%;
   text-align: center;
 }
 
-.item{
+.item {
   background-color: rgba(128, 128, 128, 0.5);
   border-radius: 20px;
   display: inline-block;
@@ -68,14 +68,14 @@ body {
   margin: auto;
   margin-top: 20px;
 }
-  .item-img{
-    background-color: rgba(128, 128, 128, 0.302);
-    border-radius: 5px;
-    width: 130px;
-    height: 130px;
-    margin: 10px;
-  }
-.item-button{
+.item-img {
+  background-color: rgba(128, 128, 128, 0.302);
+  border-radius: 5px;
+  width: 130px;
+  height: 130px;
+  margin: 10px;
+}
+.item-button {
   height: 40px;
   width: 130px;
   margin: 10px 10px 5px 10px;
@@ -84,36 +84,19 @@ body {
   color: black;
   text-align: center;
 }
-.item-button:hover{
+.item-button:hover {
   background-color: rgba(0, 225, 64, 0.8);
 }
 
-.item-button p{
+.item-button p {
   padding: 8px;
   color: white;
   font-size: 20px;
-  
 }
-.item-button a{
+.item-button a {
   text-decoration: none;
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*media querie 1*/
 @media (max-width: 1024px) and (min-width: 860px) {
@@ -141,7 +124,7 @@ body {
   .logo {
     display: none;
   }
-  .item-box{
+  .item-box {
     text-align: center;
     padding-top: 40px;
     width: 100%;
@@ -212,37 +195,35 @@ body {
     right: 10%;
     display: block;
   }
-  .item-box{
+  .item-box {
     text-align: center;
     padding-top: 20px;
     width: 100%;
   }
-  
-  .item{
+
+  .item {
     background-color: rgba(128, 128, 128, 0.5);
     border-radius: 20px;
     display: inline-block;
     height: 200px;
     width: 150px;
     margin: auto;
-    
   }
-    .item-img{
-      background-color: gray;
-      border-radius: 5px;
-      width: 130px;
-      height: 130px;
-      margin: 10px;
-    }
-  .item-button{
+  .item-img {
+    background-color: gray;
+    border-radius: 5px;
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+  }
+  .item-button {
     height: 40px;
     width: 130px;
     margin: 10px 10px 5px 10px;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
-  
   }
-  .item-button:hover{
+  .item-button:hover {
     background-color: rgba(255, 255, 255, 0.5);
   }
 }
