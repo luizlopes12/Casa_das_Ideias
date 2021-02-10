@@ -21,6 +21,7 @@ body {
 /*header, title and img*/
 .header {
   background-color: #8c6a58;
+  border-radius: 0 0 20px 20px;
 }
 .logo {
   margin: 10px;
@@ -42,6 +43,7 @@ body {
   padding: 10px;
   margin-right: 5px;
   margin-left: 5px;
+  
 }
 /*nav links*/
 .headerlink {
