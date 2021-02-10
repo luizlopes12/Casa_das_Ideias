@@ -62,7 +62,7 @@ body {
 }
 
 .item {
-  background-color: rgba(128, 128, 128, 0.5);
+  background-color: rgba(128, 128, 128, 0.275);
   border-radius: 20px;
   display: inline-block;
   height: 200px;
@@ -209,7 +209,7 @@ body {
     display: inline-block;
     height: 200px;
     width: 150px;
-    margin: auto;
+    margin: 10px auto;
   }
   .item-img {
     background-color: gray;
@@ -223,9 +223,9 @@ body {
     width: 130px;
     margin: 10px 10px 5px 10px;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 225, 64);
   }
   .item-button:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 225, 64, 0.8);
   }
 }
