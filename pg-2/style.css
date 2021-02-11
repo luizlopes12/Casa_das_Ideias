@@ -78,7 +78,8 @@ body {
   text-align: center;
 }
 .item-desc p{
-  height: 40px;
+  font-style: normal;
+  height: 50px;
 }
 .item-img {
   background-color: rgba(128, 128, 128, 0.302);
