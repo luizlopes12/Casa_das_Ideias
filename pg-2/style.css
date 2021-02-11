@@ -216,14 +216,14 @@ body {
   }
 
   .item {
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, 0.275);
     border-radius: 20px;
     display: inline-block;
     
     width: 150px;
   }
   .item-img {
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.302);
     border-radius: 5px;
     width: 130px;
     height: 130px;
