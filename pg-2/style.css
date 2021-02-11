@@ -65,17 +65,23 @@ body {
   background-color: rgba(128, 128, 128, 0.275);
   border-radius: 20px;
   display: inline-block;
-  height: 200px;
+  height: 230px;
   width: 150px;
+  margin: 20px auto;
+  
+}
+.item-desc{
   margin: auto;
-  margin-top: 20px;
+  height: 40px;
+  width: 80%;
+  text-align: center;
 }
 .item-img {
   background-color: rgba(128, 128, 128, 0.302);
   border-radius: 5px;
   width: 130px;
   height: 130px;
-  margin: 10px;
+  margin: 0px 10px 10px 10px;
 }
 .item-button {
   height: 40px;
