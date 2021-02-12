@@ -229,10 +229,12 @@ body {
     height: 130px;
     margin: 10px;
   }
+  
   .item-button {
     height: 40px;
     width: 130px;
-    margin: 10px 10px 5px 10px;
+    margin: 0 auto;
+    
     border-radius: 10px;
     background-color: rgb(0, 225, 64);
   }
