@@ -43,7 +43,6 @@ body {
   padding: 10px;
   margin-right: 5px;
   margin-left: 5px;
-  
 }
 /*nav links*/
 .headerlink {
@@ -68,16 +67,15 @@ body {
   height: 230px;
   width: 150px;
   margin: 20px auto;
-  
 }
-.item-desc{
+.item-desc {
   margin: auto;
   font-size: 25px;
   height: 40px;
   width: 80%;
   text-align: center;
 }
-.item-desc p{
+.item-desc p {
   font-style: normal;
   height: 50px;
 }
@@ -118,7 +116,7 @@ body {
     margin: 5px;
     float: left;
   }
-  
+
   .header {
     text-align: center;
   }
@@ -219,7 +217,7 @@ body {
     background-color: rgba(128, 128, 128, 0.275);
     border-radius: 20px;
     display: inline-block;
-    
+
     width: 150px;
   }
   .item-img {
@@ -229,16 +227,24 @@ body {
     height: 130px;
     margin: 10px;
   }
-  
+
   .item-button {
     height: 40px;
     width: 130px;
     margin: 0 auto;
-    
+
     border-radius: 10px;
     background-color: rgb(0, 225, 64);
   }
   .item-button:hover {
     background-color: rgba(0, 225, 64, 0.8);
   }
+}
+.item-button {
+  height: 35px;
+  width: 130px;
+}
+
+.item-button p {
+  padding: 5px;
 }
