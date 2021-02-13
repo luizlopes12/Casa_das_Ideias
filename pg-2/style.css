@@ -20,7 +20,7 @@ body {
 }
 /*header, title and img*/
 .header {
-  background-color: #8c6a58;
+  background-color: rgba(140, 106, 88, 0.808);
   border-radius: 0 0 20px 20px;
 }
 .logo {
