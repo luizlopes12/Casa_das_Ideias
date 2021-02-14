@@ -8,7 +8,7 @@ body {
 }
 body {
   background-color: #8c6a58;
-  background-image: url(img/foto-de-fundo.png);
+  background: url(img/foto-de-fundo.png) no-repeat center center fixed;
   background-repeat: no-repeat;
   background-size: 100%;
   color: #ffffff;
