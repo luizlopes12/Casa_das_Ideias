@@ -4,6 +4,7 @@
  
  - [x] HTML e CSS puro
  
+ ![gif mobile](https://github.com/luizlopes12/Casa_das_Ideias/blob/main/gif.gif)
  ![imagem mobile 1](https://github.com/luizlopes12/Pagina-de-apresentacao/blob/main/Screenshot_39.png)
  ![imagem mobile 2](https://github.com/luizlopes12/Pagina-de-apresentacao/blob/main/Screenshot_44.png)
  ![imagem desktop 1](https://github.com/luizlopes12/Pagina-de-apresentacao/blob/main/Screenshot_41.png)
