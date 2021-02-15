@@ -182,9 +182,9 @@ body {
     font-size: 0.5em;
   }
   .nav {
-    position: inherit;
+    position: fixed;
     display: block;
-    top: 88.1%;
+    top: 500px;
     width: 68%;
     right: 15%;
     left: 12%;
