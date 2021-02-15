@@ -200,7 +200,7 @@ body {
     height: 60px;
   }
   .title {
-    position: fixed;
+    position: absolute;
     text-align: center;
     width: 68%;
     left: 10%;
