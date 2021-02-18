@@ -95,7 +95,7 @@ a:link {
 
 @media (max-width: 600px) {
   body {
-    background-size: 500%;
+    background-size: 400%;
   }
   .font1 {
     font-size: 2.22em;
