@@ -92,12 +92,12 @@ body {
   width: 130px;
   margin: 10px 10px 5px 10px;
   border-radius: 10px;
-  background-color: rgb(158, 197, 90);
+  background-color: rgb(111, 197, 90);
   color: black;
   text-align: center;
 }
 .item-button:hover {
-  background-color: rgba(158, 197, 90, 0.8);
+  background-color: rgba(111, 197, 90, 0.8);
 }
 
 .item-button p {
@@ -234,10 +234,10 @@ body {
     width: 130px;
     margin: 0 auto;
     border-radius: 10px;
-    background-color: rgb(158, 197, 90);
+    background-color: rgb(111, 197, 90);
   }
   .item-button:hover {
-    background-color: rgba(158, 197, 90, 0.8);
+    background-color: rgba(111, 197, 90, 0.8);
   }
 }
 .item-button {
