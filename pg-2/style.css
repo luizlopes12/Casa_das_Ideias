@@ -186,9 +186,9 @@ body {
     position: fixed;
     display: block;
     top: 505px;
-    width: 68%;
-    right: 15%;
-    left: 12%;
+    width: 91%;
+    right: 0;
+    left: 0;
     height: 9px;
     padding-bottom: 25px;
   }
