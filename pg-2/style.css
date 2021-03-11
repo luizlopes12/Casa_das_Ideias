@@ -69,8 +69,8 @@ body {
   width: 150px;
   margin: 20px auto;
 }
-.item {
-  background-color: rgba(128, 128, 128, 0.275);
+.item:hover {
+  background-color: rgba(128, 128, 128, 0.1);
 }
 .item-desc {
   margin: auto;
@@ -89,6 +89,9 @@ body {
   width: 130px;
   height: 130px;
   margin: 0px 10px 10px 10px;
+}
+.item-img{
+  background-color: rgba(128, 128, 128, 0.275);
 }
 .item-button {
   height: 40px;
